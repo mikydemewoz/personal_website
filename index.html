@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>One page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div id="pagepiling" >
+        <div class="section home" id="home">
+            <div class="wrapper">
+                <nav>
+                    <ul id="mymenu">
+                        <li data-menuanchor="home" class="active"><a href="#home" style="text-decoration:none;">Home</a></li>
+                        <li data-menuanchor="about"><a href="#about" style="text-decoration:none;">About</a></li>
+                        <li data-menuanchor="project"><a href="#project" style="text-decoration:none;">Projects</a></li>
+                        <li data-menuanchor="mySystem"><a href="#mySystem" style="text-decoration:none;">My System</a></li>
+                        <li data-menuanchor="contact"><a href="#contact" style="text-decoration:none;">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="banner">
+                <h3>Hey I'm</h3>
+                <h2>Michael Demewoz</h2>
+            </div>
+        </div>
+        <div class="section about" id="about">
+            <div class="wrapper">
+                <h3>Littel about me</h3>
+                <p>My name is Michael Demewoz, I am a software engineering student in Ethiopia, 
+                Addis Ababa Science and Technology University. I have taken my preparatory and 
+                highschool in Addis Ababa, Vision Academy. I am the oldest and only boy for my 
+                family, I have a very kind one sister. I grew up under the mentor of my family. 
+                I like to code and solve problems. I like playing football and involve in many sports.</p>
+            </div>
+        </div>
+        <div class="section projects" id="project">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/bus_res.png" alt="" srcset="" id="img1" class="rounded-circle">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Bus reservation system with C programming for semistere project.
+                            It is made with simple C syntax which is not complicated 
+                            it doesn't use any database of user interface it is a console
+                            program. C is a little bit hard programming than python or Java 
+                            but it is the basics of all.  
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/employee.jpg" alt="" srcset="" id="img2" class="rounded-circle">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Employee managment system with Java programming for semistere project.
+                            It is made using java programming it uses database which is Mysql 
+                            database and this is make using javafx user interface
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/website.png" alt="" srcset="" id="img3" class="rounded-circle">
+                    </div>
+                    <div class="col-md-6">
+                        <p>One page website with Java programming for semistere project.
+                            It is made using HTML, CSS and bootstrap whiich makes it good looking
+                            It is my first websit.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section mySystem" id="mySystem">
+            <div class="wrapper">
+                <h2 class="preH2">This is my system</h2>
+                <pre>
+                LOVABLE,SYSTEMATIC,AND RELENTLESS
+                DON'T TAKE YOURSELF TO SERIOUSLY
+                        READ EVERYDAY
+                      BELIVE IN CHANGE 
+                    PRIORTIZE THE CUSTOMER
+                  INVEST IN IDEA THAT MATTER
+                </pre>
+            </div>
+        </div>
+        <div class="section contact" id="contact">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-7">
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for="Name">Name: </label>
+                                <input type="text" class="form-control" id="name" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="Name">Email: </label>
+                                <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Name">Comment: </label>
+                                <textarea name="contact" id="contact" cols="30" rows="10" class="form-control" name="comment"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-success" value="comment">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 first">
+                        <a href="#" class="fa fa-facebook" style="text-decoration:none"></a>
+                        <a href="#" class="fa fa-twitter" style="text-decoration:none"></a>
+                        <a href="#" class="fa fa-linkedin" style="text-decoration:none"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 second">
+                        <a href="#" class="fa fa-facebook" style="text-decoration:none"></a>
+                        <a href="#" class="fa fa-twitter" style="text-decoration:none"></a>
+                        <a href="#" class="fa fa-linkedin" style="text-decoration:none"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.pagepiling.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#pagepiling').pagepiling({
+                direction: 'vertical',
+                sectionsColor: ["#f2f2f2","#458CBF","#f2f2f2","#F6CA07","#f2f2f2"],
+                anchors: ['home', 'about', 'project', 'mySystem', 'contact'],
+                menu: '#myMenu',
+                navigation: {
+                    'textColor': '#000',
+                    'bulletsColor': '#000',
+                    'position': 'right',
+                    'tooltips': ['home', 'about', 'projects', 'My systems','contact']
+                },
+            });
+        });
+    </script>
+</body>
+</html>

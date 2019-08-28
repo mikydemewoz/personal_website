@@ -1,0 +1,174 @@
+h3{
+    color:#fff;
+    font-size: 48px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    color: #fff;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+nav ul li a{
+    text-decoration-line: none;
+    color: #050505;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 20px
+}
+
+.home{
+    background-image: url('images/back.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center ; 
+}
+
+.home h2{
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.banner h3{
+    color:rgb(0, 0, 0);
+    margin-left: 40%;
+    margin-top: 480px;
+    font-family: 'Pacifico', cursive;
+
+}
+.banner h2{
+    color:rgb(0, 0, 0);
+    margin-left: 30%;
+    font-family: 'Merriweather', serif;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+.wrapper .preH2{
+    vertical-align: center;
+    margin-left: 36%;
+    color: black;
+    font-size:40px;
+    margin-bottom: 20px;
+}
+
+.wrapper pre{
+    color: white;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.row .col-md-6 p{
+    color: #050505
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+    margin-top: 400px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .second{
+      visibility: hidden;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    .wrapper{
+        width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 767px){
+      .wrapper{
+          width: 90%;
+      }
+      nav{
+        visibility: hidden;
+      }
+      .home h2{
+          font-size: 25px;
+      }
+      h3{
+          font-size: 30px;
+      }
+      .about p, .project p, .mySystem p, .contact p{
+          line-height: 20px;
+          font-size: 13px;
+      }
+      .fa {
+        font-size: 30px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .wrapper .preH2{
+        vertical-align: center;
+        margin-left: 10%;
+        color: black;
+        font-size:40px;
+        margin-bottom: 20px;
+    }
+    
+    .wrapper pre{
+        color: white;
+        margin-left: -30%;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .first{
+        visibility: hidden;
+    }
+    .second{
+        visibility: visible;
+    }
+
+  }
